@@ -59,16 +59,11 @@ This setup assumes you have MySQL running locally on your machine.
 
 1. **Clone the repository**
    ```bash
-   git clone 
+   git clone https://github.com/MikeBarney88/golf-club-api.git
    cd golf-club-api
    ```
 
-2. **Build the application with Maven**
-   ```bash
-   mvn clean package -DskipTests
-   ```
-
-3. **Build and run with Docker Compose**
+2. **Build and run with Docker Compose**
    ```bash
    docker-compose up --build
    ```
@@ -79,7 +74,7 @@ This setup assumes you have MySQL running locally on your machine.
    - Connect to your local MySQL database
    - The API will be available at `http://localhost:8080`
 
-4. **Stop the container**
+3. **Stop the container**
    ```bash
    docker-compose down
    ```
